@@ -95,3 +95,12 @@ export const projects = [
     photo: 'saas_rh.jpg',
   },
 ]
+
+export const socialMediaPlatforms = [
+  { name: 'Facebook', logo: 'facebook_logo.jpg' },
+  { name: 'Twitter', logo: 'twitter_logo.jpg' },
+  { name: 'LinkedIn', logo: 'linkedin_logo.jpg' },
+  { name: 'WhatsApp', logo: 'whatsapp_logo.jpg' },
+  { name: 'Telegram', logo: 'telegram_logo.jpg' },
+  { name: 'Skype', logo: 'skype_logo.jpg' },
+]
