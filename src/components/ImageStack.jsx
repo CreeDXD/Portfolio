@@ -1,4 +1,4 @@
-export default function ImageStack({ title, path }) {
+const ImageStack = ({ title, path }) => {
   return (
     <div className="maStack--composant">
       <p>{title}</p>
@@ -6,3 +6,5 @@ export default function ImageStack({ title, path }) {
     </div>
   )
 }
+
+export default ImageStack

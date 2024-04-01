@@ -1,17 +1,22 @@
-import socialMediaPlatforms from '../data/data'
+import { socialMediaPlatforms } from '../data/data'
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <section className="contact">
+      <div>
+        <h3>
+          N'hésitez pas à me contacter pour toute information supplémentaire
+        </h3>
+      </div>
       <ul>
         {socialMediaPlatforms.map((platform) => (
           <li key={platform.name}>
             <img src={platform.logo} alt={`${platform.name} Logo`} />
-            {platform.name}
+            <p>{platform.name}</p>
           </li>
         ))}
       </ul>
-    </div>
+    </section>
   )
 }
 export default Contact

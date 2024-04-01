@@ -103,4 +103,5 @@ export const socialMediaPlatforms = [
   { name: 'WhatsApp', logo: 'whatsapp_logo.jpg' },
   { name: 'Telegram', logo: 'telegram_logo.jpg' },
   { name: 'Skype', logo: 'skype_logo.jpg' },
+  { name: 'mail', logo: 'mail_logo.jpg' },
 ]

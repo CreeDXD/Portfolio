@@ -1,4 +1,5 @@
-import React from 'react'
+import Tag from '../components/Tag'
+import ViewProject from './ViewProject'
 
 const Project = ({ title, tags, text, photo }) => {
   return (
@@ -9,11 +10,12 @@ const Project = ({ title, tags, text, photo }) => {
         <p>{text}</p>
         <div className="tags">
           {tags.map((tag, index) => (
-            <span key={index} className="tag">
-              {tag}
+            <span key={index} className="tags-unit">
+              <Tag tag={tag} />
             </span>
           ))}
         </div>
+        <ViewProject />
       </div>
     </div>
   )

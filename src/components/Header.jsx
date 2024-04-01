@@ -1,4 +1,4 @@
-export function Header() {
+const Header = () => {
   return (
     <div className="contenu header">
       <a href="#Portfolio">Portfolio</a>
@@ -13,3 +13,5 @@ export function Header() {
     </div>
   )
 }
+
+export default Header

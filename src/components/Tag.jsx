@@ -1,7 +1,8 @@
-export default function components({ tag }) {
+const Tag = ({ tag }) => {
   return (
     <>
       <p>{tag}</p>
     </>
   )
 }
+export default Tag
