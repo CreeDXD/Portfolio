@@ -1,4 +1,4 @@
-import Tag from '../components/Tag'
+import Tag from './Tag'
 import ViewProject from './ViewProject'
 
 const Project = ({ title, tags, text, photo }) => {
