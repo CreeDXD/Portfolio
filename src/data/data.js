@@ -74,41 +74,41 @@ export default imageList
 
 export const projects = [
   {
-    title: 'booki',
+    title: 'Booki',
     tags: ['HTML', 'CSS', 'Maquette', 'Web'],
-    text: 'Ce projet utilise les langages HTML et CSS pour transformer une maquette graphique en un site web interactif et esthétique.',
+    text: 'Utilisation des langages HTML et CSS pour transformer une maquette graphique en un site web interactif et esthétique.',
     photo: booki,
   },
   {
-    title: 'ohmyfood',
+    title: 'Ohmyfood',
     tags: ['CSS', 'Animations', 'Web'],
-    text: 'Ce projet utilise les animations CSS pour ajouter du dynamisme à vos pages web, créant ainsi des expériences utilisateur engageantes.',
+    text: "Dynamisation à l'aide d'animations CSS, créant ainsi des expériences utilisateur engageantes.",
     photo: ohmyfood,
   },
   {
-    title: 'gameon',
+    title: 'Gameon',
     tags: ['Javascript', 'Landing Page'],
-    text: 'Ce projet utilise JavaScript pour créer une landing page interactive et réactive, offrant ainsi une expérience utilisateur fluide et moderne.',
+    text: 'Utilisation de JavaScript pour créer une landing page interactive et réactive, offrant ainsi une expérience utilisateur fluide et moderne.',
     photo: gameon,
   },
 
   {
-    title: 'fisheye',
+    title: 'Fisheye',
     tags: ['Site', 'Accessible', 'Photographes'],
-    text: 'Ce projet développe un site web accessible aux photographes en utilisant des techniques avancées de HTML, CSS et JavaScript pour garantir une accessibilité optimale.',
+    text: "Développement d'un site web accessible aux photographes en utilisant des techniques avancées de HTML, CSS et JavaScript pour garantir une accessibilité optimale.",
     photo: fisheye,
   },
   {
     title: 'Les petits plats',
     tags: ['Algorithme', 'Recherche', 'Javascript'],
-    text: "Ce projet guide dans la création d'un algorithme de recherche efficace en JavaScript, en mettant en œuvre des concepts de programmation avancés.",
+    text: "Création d'un algorithme de recherche efficace en JavaScript, en mettant en œuvre des concepts de programmation avancés.",
     photo: lesPetitsPlats,
   },
 
   {
     title: 'Billed',
-    tags: ['Débogage', 'Test', 'RH'],
-    text: 'Ce projet met en pratique vos compétences en matière de débogage et de test sur un logiciel en tant que service (SaaS) dédié aux ressources humaines (RH).',
+    tags: ['Débogage', 'Test', 'RH', 'Saas'],
+    text: 'Débogage et de test sur un logiciel en tant que service (SaaS) dédié aux ressources humaines (RH).',
     photo: billed,
   },
   {
@@ -119,19 +119,19 @@ export const projects = [
   },
   {
     title: 'Sportsee',
-    tags: ['Coaching sportif', 'Application web', 'Saas'],
+    tags: ['React', 'Coaching sportif', 'Application web', 'Saas'],
     text: "Conception de la plateforme web de pointe SportSee. Mise en place de fonctionnalités conviviales pour suivre les sessions d'entraînement et les calories brûlées, améliorant ainsi l'expérience utilisateur globale.",
     photo: sportSee,
   },
   {
     title: 'Agent Bank',
-    tags: [''],
+    tags: ['React'],
     text: '',
     photo: agentBank,
   },
   {
     title: 'Wealth Health',
-    tags: [''],
+    tags: ['React'],
     text: '',
     photo: wealthHealth,
   },
