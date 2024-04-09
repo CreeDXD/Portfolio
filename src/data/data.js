@@ -1,3 +1,5 @@
+// Data file
+
 import htmlImage from '../assets/html.png'
 import cssImage from '../assets/css.png'
 import reactImage from '../assets/react.png'
@@ -19,6 +21,11 @@ import lesPetitsPlats from '../assets/img portfolio/lespetitsplats p7/mainp7.png
 import ohmyfood from '../assets/img portfolio/ohmyfood p3/mainp3.png'
 import sportSee from '../assets/img portfolio/sportsee p12/mainp12.png'
 import wealthHealth from '../assets/img portfolio/wealth_health p14/mainp14.png'
+
+import github from '../assets/socialMediaPlartformsImg/github.png'
+import gmail from '../assets/socialMediaPlartformsImg/gmail.png'
+import linkedin from '../assets/socialMediaPlartformsImg/linkedin.png'
+import twitter from '../assets/socialMediaPlartformsImg/twitter.png'
 
 import portraitAboutMe from '../assets/portrait.jpg'
 
@@ -138,11 +145,8 @@ export const projects = [
 ]
 
 export const socialMediaPlatforms = [
-  { name: 'Facebook', logo: 'facebook_logo.jpg' },
-  { name: 'Twitter', logo: 'twitter_logo.jpg' },
-  { name: 'LinkedIn', logo: 'linkedin_logo.jpg' },
-  { name: 'WhatsApp', logo: 'whatsapp_logo.jpg' },
-  { name: 'Telegram', logo: 'telegram_logo.jpg' },
-  { name: 'Skype', logo: 'skype_logo.jpg' },
-  { name: 'mail', logo: 'mail_logo.jpg' },
+  { name: 'Twitter', logo: twitter },
+  { name: 'LinkedIn', logo: linkedin },
+  { name: 'mail', logo: gmail },
+  { name: 'Github', logo: github },
 ]

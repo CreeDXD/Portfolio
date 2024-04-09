@@ -119,7 +119,7 @@ a {
 }
 .projects--components {
   text-align: center;
-  margin-bottom: 400px;
+  margin-bottom: 500px;
 }
 .projects--components h1 {
   font-size: 50px;
@@ -151,6 +151,37 @@ a {
   padding-top: 7px;
   padding-bottom: 7px;
   font-weight: 500;
+}
+
+.contact {
+  text-align: center;
+  margin-bottom: 200px;
+}
+.contact--component {
+  display: flex;
+  flex-direction: row;
+  padding: 200px;
+  padding-top: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.contact--component li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 20px;
+}
+.contact--component li img {
+  width: 50px;
+  height: auto;
+  padding-right: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=index.css.map */
