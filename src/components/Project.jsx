@@ -15,7 +15,7 @@ const Project = ({ title, tags, text, photo }) => {
             </span>
           ))}
         </div>
-        <ViewProject />
+        {/* <ViewProject /> */}
       </div>
     </div>
   )

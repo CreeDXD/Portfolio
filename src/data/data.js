@@ -88,20 +88,20 @@ export const projects = [
   },
   {
     title: 'Ohmyfood',
-    tags: ['CSS', 'Animations', 'Web'],
+    tags: ['CSS', 'Animations', 'Web', 'Sass'],
     text: "Dynamisation à l'aide d'animations CSS, créant ainsi des expériences utilisateur engageantes.",
     photo: ohmyfood,
   },
   {
     title: 'Gameon',
-    tags: ['Javascript', 'Landing Page'],
+    tags: ['Javascript', 'Landing Page', 'Formulaire'],
     text: 'Utilisation de JavaScript pour créer une landing page interactive et réactive, offrant ainsi une expérience utilisateur fluide et moderne.',
     photo: gameon,
   },
 
   {
     title: 'Fisheye',
-    tags: ['Site', 'Accessible', 'Photographes'],
+    tags: ['Site', 'Accessible', 'Photographes', 'Javascript'],
     text: "Développement d'un site web accessible aux photographes en utilisant des techniques avancées de HTML, CSS et JavaScript pour garantir une accessibilité optimale.",
     photo: fisheye,
   },
@@ -114,7 +114,7 @@ export const projects = [
 
   {
     title: 'Billed',
-    tags: ['Débogage', 'Test', 'RH', 'Saas'],
+    tags: ['Débogage', 'Test', 'RH', 'Saas', 'Jest'],
     text: 'Débogage et de test sur un logiciel en tant que service (SaaS) dédié aux ressources humaines (RH).',
     photo: billed,
   },
@@ -132,7 +132,7 @@ export const projects = [
   },
   {
     title: 'Agent Bank',
-    tags: ['React'],
+    tags: ['React', 'Connexion', 'Securité'],
     text: '',
     photo: agentBank,
   },
