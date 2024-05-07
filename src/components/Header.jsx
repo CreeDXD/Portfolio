@@ -5,16 +5,16 @@ const Header = ({ nextSectionRef }) => {
       <nav>
         <ul>
           <li>
-            <a href="#aboutme">about me</a>
+            <a href="#aboutme">About me</a>
           </li>
           <li>
-            <a href="#mastack">ma stack</a>
+            <a href="#mastack">Ma stack</a>
           </li>
           <li>
             <a href="#portfolio">Portfolio</a>
           </li>
           <li>
-            <a href="#contact">me contacter</a>
+            <a href="#contact">Me contacter</a>
           </li>
         </ul>
       </nav>
