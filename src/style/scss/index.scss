@@ -13,7 +13,12 @@ li {
   padding: 0;
 }
 a {
+  text-decoration: none;
   color: black;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 // top navigation bar
@@ -55,12 +60,14 @@ a {
 }
 
 // about me section
-
+#aboutme {
+  scroll-margin-top: 200px;
+}
 .about_me {
   display: flex;
   flex-direction: row;
   margin-top: 150px;
-  margin-bottom: 400px;
+  margin-bottom: 200px;
   justify-content: space-around;
   align-items: center;
   section {
@@ -77,13 +84,17 @@ a {
 }
 
 // ma stack section
-
+#mastack {
+  scroll-margin-top: 200px;
+}
 .maStack {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   margin-bottom: 400px;
+  padding-top: 200px;
+
   section {
     display: flex;
     flex-direction: row;
@@ -115,6 +126,9 @@ a {
   }
 }
 
+#portfolio {
+  scroll-margin-top: 100px;
+}
 // projets
 .projects {
   display: flex;

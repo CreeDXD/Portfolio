@@ -7,11 +7,13 @@ const GalleryProjets = ({ test }) => {
   let buttonContent
   isExpanded ? (buttonContent = 'collapse') : (buttonContent = 'View all')
   const toggleExpansion = () => {
+    const portfolioSection = document.getElementById('portfolio')
+    portfolioSection.scrollIntoView({ behavior: 'smooth' })
     setIsExpanded(!isExpanded)
   }
 
   return (
-    <section className="projects--components">
+    <section className="projects--components" id="portfolio">
       <h3>Projets</h3>
       <h1>Découvre mon travail</h1>
       <h3>faites le tour de mes derniers projets</h3>

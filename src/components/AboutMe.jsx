@@ -2,7 +2,7 @@ import { portrait } from '../data/data'
 
 function AboutMe() {
   return (
-    <div className="about_me">
+    <div className="about_me" id="aboutme">
       <section>
         <h1>About me</h1>
         <h3>

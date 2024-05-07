@@ -12,7 +12,12 @@ li {
 }
 
 a {
+  text-decoration: none;
   color: black;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .header {
@@ -51,11 +56,15 @@ a {
   margin-left: 50px;
 }
 
+#aboutme {
+  scroll-margin-top: 200px;
+}
+
 .about_me {
   display: flex;
   flex-direction: row;
   margin-top: 150px;
-  margin-bottom: 400px;
+  margin-bottom: 200px;
   justify-content: space-around;
   align-items: center;
 }
@@ -71,12 +80,17 @@ a {
   object-fit: cover;
 }
 
+#mastack {
+  scroll-margin-top: 200px;
+}
+
 .maStack {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   margin-bottom: 400px;
+  padding-top: 200px;
 }
 .maStack section {
   display: flex;
@@ -105,6 +119,10 @@ a {
   width: 30px;
   height: auto;
   margin-left: 10px;
+}
+
+#portfolio {
+  scroll-margin-top: 100px;
 }
 
 .projects {
