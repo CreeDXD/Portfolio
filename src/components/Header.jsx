@@ -1,4 +1,4 @@
-const Header = () => {
+const Header = ({ nextSectionRef }) => {
   return (
     <div className="contenu header">
       <a href="#Portfolio">Portfolio</a>

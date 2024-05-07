@@ -2,7 +2,7 @@ import Project from './Project'
 import { projects } from '../data/data'
 import { useState } from 'react'
 
-const GalleryProjets = () => {
+const GalleryProjets = ({ test }) => {
   const [isExpanded, setIsExpanded] = useState(false)
   let buttonContent
   isExpanded ? (buttonContent = 'collapse') : (buttonContent = 'View all')
@@ -17,7 +17,7 @@ const GalleryProjets = () => {
       <h3>faites le tour de mes derniers projets</h3>
       <>
         {isExpanded ? (
-          <div className="projects">
+          <div className="projects" ref={test}>
             {projects.map((project, index) => (
               <Project key={index} {...project} />
             ))}
