@@ -145,8 +145,8 @@ export const projects = [
 ]
 
 export const socialMediaPlatforms = [
-  { name: 'Twitter', logo: twitter },
-  { name: 'LinkedIn', logo: linkedin },
+  { name: 'Twitter', logo: twitter, link: 'https://twitter.com/dev_veille' },
+  { name: 'LinkedIn', logo: linkedin, link: 'www.linkedin.com/in/pierreclio' },
   { name: 'mail', logo: gmail },
-  { name: 'Github', logo: github },
+  { name: 'Github', logo: github, link: 'https://github.com/CreeDXD' },
 ]

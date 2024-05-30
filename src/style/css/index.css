@@ -207,4 +207,163 @@ footer {
   bottom: 0;
 }
 
+@media (max-width: 1280px) {
+  .about_me {
+    margin-top: 100px;
+    margin-bottom: 150px;
+  }
+  .about_me section {
+    width: 50%;
+  }
+  .about_me section h1 {
+    font-size: 40px;
+  }
+  .about_me img {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  .maStack {
+    padding-top: 50px;
+  }
+  .maStack section {
+    width: 80%;
+  }
+  .maStack--composant {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  #portfolio {
+    scroll-margin-top: 70px;
+  }
+  .projects {
+    padding: 50px;
+    padding-top: 10px;
+  }
+  .projects--components {
+    margin-bottom: 200px;
+  }
+  .projects--components h3 {
+    display: none;
+  }
+  .projects--components h1 {
+    font-size: 40px;
+    margin: 10px;
+  }
+  .project {
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .project-details {
+    margin-left: 20px;
+    width: 50%;
+  }
+  .project img {
+    height: 200px;
+  }
+  .tags-unit {
+    margin: 5px;
+    padding: 5px;
+    font-size: 14px;
+  }
+  .contact {
+    margin-bottom: 150px;
+  }
+  .contact--component {
+    padding: 50px 20px;
+  }
+  .contact--component li {
+    padding-left: 10px;
+  }
+  .contact--component li img {
+    width: 30px;
+  }
+  footer {
+    padding: 20px;
+  }
+  .scroll-down-arrow {
+    bottom: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .about_me {
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  .about_me section {
+    width: 100%;
+  }
+  .about_me section h1 {
+    font-size: 30px;
+  }
+  .about_me img {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  .maStack {
+    padding-top: 30px;
+  }
+  .maStack section {
+    width: 100%;
+  }
+  .maStack--composant {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  #portfolio {
+    scroll-margin-top: 50px;
+  }
+  .projects {
+    padding: 20px;
+    padding-top: 5px;
+  }
+  .projects--components {
+    margin-bottom: 100px;
+  }
+  .projects--components h3 {
+    display: none;
+  }
+  .projects--components h1 {
+    font-size: 30px;
+    margin: 5px;
+  }
+  .project {
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .project-details {
+    margin-left: 0;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .project img {
+    height: 150px;
+    width: 100%;
+  }
+  .tags-unit {
+    margin: 3px;
+    padding: 3px;
+    font-size: 12px;
+  }
+  .contact {
+    margin-bottom: 100px;
+  }
+  .contact--component {
+    padding: 30px 10px;
+  }
+  .contact--component li {
+    padding-left: 5px;
+  }
+  .contact--component li img {
+    width: 20px;
+  }
+  footer {
+    padding: 10px;
+  }
+  .scroll-down-arrow {
+    bottom: 5px;
+  }
+}
+
 /*# sourceMappingURL=index.css.map */
