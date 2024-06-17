@@ -224,6 +224,7 @@ footer {
   }
   .maStack {
     padding-top: 50px;
+    scroll-margin-top: 70px;
   }
   .maStack section {
     width: 80%;
@@ -251,6 +252,7 @@ footer {
   }
   .project {
     flex-direction: row;
+    justify-content: space-between;
     width: 100%;
     margin-bottom: 30px;
   }
