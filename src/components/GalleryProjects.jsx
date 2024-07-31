@@ -1,6 +1,7 @@
 import Project from './Project'
 import { projects } from '../data/data'
 import { useState } from 'react'
+import Button from '../components/Button'
 
 const GalleryProjets = ({ test }) => {
   const [isExpanded, setIsExpanded] = useState(false)
@@ -26,12 +27,18 @@ const GalleryProjets = ({ test }) => {
           </div>
         ) : (
           <div className="projects">
-            {projects.slice(0, 2).map((project, index) => (
+            {projects.slice(0, 1).map((project, index) => (
               <Project key={index} {...project} />
             ))}
           </div>
         )}
-        <button onClick={toggleExpansion}>{buttonContent}</button>
+        {/* <button onClick={toggleExpansion}>{buttonContent}</button> */}
+
+        <Button
+          toggle={toggleExpansion}
+          content={buttonContent}
+          className="button"
+        />
       </>
     </section>
   )

@@ -1,5 +1,4 @@
 import Tag from './Tag'
-import ViewProject from './ViewProject'
 
 const Project = ({ title, tags, text, photo }) => {
   return (
@@ -15,7 +14,6 @@ const Project = ({ title, tags, text, photo }) => {
             </span>
           ))}
         </div>
-        {/* <ViewProject /> */}
       </div>
     </div>
   )

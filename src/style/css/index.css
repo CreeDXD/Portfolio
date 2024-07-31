@@ -143,6 +143,11 @@ html {
   font-size: 50px;
 }
 
+.site-button-ghost-wrapper {
+  margin-top: 3%;
+  justify-content: center;
+}
+
 .project {
   display: flex;
   flex-direction: column;
@@ -208,6 +213,12 @@ footer {
 }
 
 @media (max-width: 1280px) {
+  .header a {
+    font-size: 0.9em;
+  }
+  .header ul li a {
+    font-size: 1.5em;
+  }
   .about_me {
     margin-top: 100px;
     margin-bottom: 150px;
@@ -236,22 +247,21 @@ footer {
   #portfolio {
     scroll-margin-top: 70px;
   }
-  .projects {
-    padding: 50px;
-    padding-top: 10px;
-  }
   .projects--components {
     margin-bottom: 200px;
-  }
-  .projects--components h3 {
-    display: none;
   }
   .projects--components h1 {
     font-size: 40px;
     margin: 10px;
+    margin-bottom: 100px;
+  }
+  .projects {
+    padding: 50px;
+    padding-top: 10px;
   }
   .project {
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     width: 100%;
     margin-bottom: 30px;

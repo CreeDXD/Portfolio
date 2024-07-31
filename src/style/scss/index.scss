@@ -148,6 +148,12 @@ html {
     }
   }
 }
+
+.site-button-ghost-wrapper {
+  margin-top: 3%;
+  justify-content: center;
+}
+
 .project {
   display: flex;
   flex-direction: column;
@@ -218,6 +224,16 @@ footer {
 // Global Media Query for 1280x720 resolution
 @media (max-width: 1280px) {
   // About Me Section
+  .header {
+    a {
+      font-size: 0.9em;
+    }
+    ul li {
+      a {
+        font-size: 1.5em;
+      }
+    }
+  }
   .about_me {
     margin-top: 100px;
     margin-bottom: 150px;
@@ -254,24 +270,22 @@ footer {
   #portfolio {
     scroll-margin-top: 70px;
   }
+  .projects--components {
+    margin-bottom: 200px;
+    h1 {
+      font-size: 40px;
+      margin: 10px;
+
+      margin-bottom: 100px;
+    }
+  }
   .projects {
     padding: 50px;
     padding-top: 10px;
-
-    &--components {
-      h3 {
-        display: none;
-      }
-      margin-bottom: 200px;
-      h1 {
-        font-size: 40px;
-        margin: 10px;
-      }
-    }
   }
-
   .project {
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
 
     width: 100%;
