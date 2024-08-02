@@ -11,7 +11,11 @@ const Contact = () => {
       <ul className="contact--component">
         {socialMediaPlatforms.map((platform) => (
           <li key={platform.name}>
-            <a href={`${platform.link}`}>
+            <a
+              href={`${platform.link}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={platform.logo} alt={`${platform.name} Logo`} />
               <p>{platform.name}</p>
             </a>

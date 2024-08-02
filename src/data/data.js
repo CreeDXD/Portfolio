@@ -79,74 +79,150 @@ export const portrait = {
 
 export default imageList
 
+// export const projects = [
+//   {
+//     title: 'Booki',
+//     tags: ['HTML', 'CSS', 'Maquette', 'Web'],
+//     text: 'Utilisation des langages HTML et CSS pour transformer une maquette graphique en un site web interactif et esthétique.',
+//     photo: booki,
+//   },
+//   {
+//     title: 'Ohmyfood',
+//     tags: ['CSS', 'Animations', 'Web', 'Sass'],
+//     text: "Dynamisation à l'aide d'animations CSS, créant ainsi des expériences utilisateur engageantes.",
+//     photo: ohmyfood,
+//   },
+//   {
+//     title: 'Gameon',
+//     tags: ['Javascript', 'Landing Page', 'Formulaire'],
+//     text: 'Utilisation de JavaScript pour créer une landing page interactive et réactive, offrant ainsi une expérience utilisateur fluide et moderne.',
+//     photo: gameon,
+//   },
+
+//   {
+//     title: 'Fisheye',
+//     tags: ['Site', 'Accessible', 'Photographes', 'Javascript'],
+//     text: "Développement d'un site web accessible aux photographes en utilisant des techniques avancées de HTML, CSS et JavaScript pour garantir une accessibilité optimale.",
+//     photo: fisheye,
+//   },
+//   {
+//     title: 'Les petits plats',
+//     tags: ['Algorithme', 'Recherche', 'Javascript'],
+//     text: "Création d'un algorithme de recherche efficace en JavaScript, en mettant en œuvre des concepts de programmation avancés.",
+//     photo: lesPetitsPlats,
+//   },
+
+//   {
+//     title: 'Billed',
+//     tags: ['Débogage', 'Test', 'RH', 'Saas', 'Jest'],
+//     text: 'Débogage et de test sur un logiciel en tant que service (SaaS) dédié aux ressources humaines (RH).',
+//     photo: billed,
+//   },
+//   {
+//     title: 'Kasa',
+//     tags: ['React', 'Responsive Design', 'SaaS', 'Node.js'],
+//     text: "Réalisation de la platform Kasa. A l'aide de React et Node.js, j'ai réaliser une platforme de location d'appartement entre particuliers en France.",
+//     photo: kasa,
+//   },
+//   {
+//     title: 'Sportsee',
+//     tags: ['React', 'Coaching sportif', 'Application web', 'Saas'],
+//     text: "Conception de la plateforme web de pointe SportSee. Mise en place de fonctionnalités conviviales pour suivre les sessions d'entraînement et les calories brûlées, améliorant ainsi l'expérience utilisateur globale.",
+//     photo: sportSee,
+//   },
+//   {
+//     title: 'Agent Bank',
+//     tags: ['React', 'Connexion', 'Securité'],
+//     text: '',
+//     photo: agentBank,
+//   },
+//   {
+//     title: 'Wealth Health',
+//     tags: ['React'],
+//     text: '',
+//     photo: wealthHealth,
+//   },
+// ]
 export const projects = [
   {
     title: 'Booki',
     tags: ['HTML', 'CSS', 'Maquette', 'Web'],
     text: 'Utilisation des langages HTML et CSS pour transformer une maquette graphique en un site web interactif et esthétique.',
     photo: booki,
+    link: 'https://creedxd.github.io/booki-p2-openclassrooms',
   },
   {
     title: 'Ohmyfood',
     tags: ['CSS', 'Animations', 'Web', 'Sass'],
     text: "Dynamisation à l'aide d'animations CSS, créant ainsi des expériences utilisateur engageantes.",
     photo: ohmyfood,
+    link: 'https://creedxd.github.io/openclassrooms_P3_inte',
   },
   {
     title: 'Gameon',
     tags: ['Javascript', 'Landing Page', 'Formulaire'],
     text: 'Utilisation de JavaScript pour créer une landing page interactive et réactive, offrant ainsi une expérience utilisateur fluide et moderne.',
     photo: gameon,
+    link: 'https://creedxd.github.io/GameOn-website-FR',
   },
-
   {
     title: 'Fisheye',
     tags: ['Site', 'Accessible', 'Photographes', 'Javascript'],
     text: "Développement d'un site web accessible aux photographes en utilisant des techniques avancées de HTML, CSS et JavaScript pour garantir une accessibilité optimale.",
     photo: fisheye,
+    link: 'https://creedxd.github.io/Front-End-Fisheye',
   },
   {
     title: 'Les petits plats',
     tags: ['Algorithme', 'Recherche', 'Javascript'],
     text: "Création d'un algorithme de recherche efficace en JavaScript, en mettant en œuvre des concepts de programmation avancés.",
     photo: lesPetitsPlats,
+    link: 'https://creedxd.github.io/les-petits-plats',
   },
-
   {
     title: 'Billed',
     tags: ['Débogage', 'Test', 'RH', 'Saas', 'Jest'],
     text: 'Débogage et de test sur un logiciel en tant que service (SaaS) dédié aux ressources humaines (RH).',
     photo: billed,
+    // link: 'https://creedxd.github.io/P9---Openclassrooms---D-buggez-et-testez-un-SaaS-RH',
   },
   {
     title: 'Kasa',
     tags: ['React', 'Responsive Design', 'SaaS', 'Node.js'],
     text: "Réalisation de la platform Kasa. A l'aide de React et Node.js, j'ai réaliser une platforme de location d'appartement entre particuliers en France.",
     photo: kasa,
+    link: 'https://creedxd.github.io/p11--openclassroom--introduciton_React',
   },
   {
     title: 'Sportsee',
     tags: ['React', 'Coaching sportif', 'Application web', 'Saas'],
     text: "Conception de la plateforme web de pointe SportSee. Mise en place de fonctionnalités conviviales pour suivre les sessions d'entraînement et les calories brûlées, améliorant ainsi l'expérience utilisateur globale.",
     photo: sportSee,
+    // link: 'https://creedxd.github.io/Openclassrooms_p12_SportSee',
   },
   {
     title: 'Agent Bank',
     tags: ['React', 'Connexion', 'Securité'],
     text: '',
     photo: agentBank,
+    // link: 'https://creedxd.github.io/Projet13---openclassrooms---argent-bank',
   },
   {
     title: 'Wealth Health',
     tags: ['React'],
     text: '',
     photo: wealthHealth,
+    link: 'https://creedxd.github.io/openclassroom--p14',
   },
 ]
 
 export const socialMediaPlatforms = [
   { name: 'Twitter', logo: twitter, link: 'https://twitter.com/dev_veille' },
-  { name: 'LinkedIn', logo: linkedin, link: 'www.linkedin.com/in/pierreclio' },
-  { name: 'mail', logo: gmail },
+  {
+    name: 'LinkedIn',
+    logo: linkedin,
+    link: 'https://www.linkedin.com/in/pierreclio',
+  },
+  { name: 'mail', logo: gmail, link: 'mailto:pclio92@gmail.com' },
   { name: 'Github', logo: github, link: 'https://github.com/CreeDXD' },
 ]

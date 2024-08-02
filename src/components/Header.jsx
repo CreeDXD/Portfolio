@@ -1,20 +1,20 @@
 const Header = ({ nextSectionRef }) => {
   return (
     <div className="contenu header">
-      <a href="#portfolio">Mon Portfolio</a>
+      <a href="#portfolio">My Portfolio</a>
       <nav>
         <ul>
           <li>
             <a href="#aboutme">About me</a>
           </li>
           <li>
-            <a href="#mastack">Ma stack</a>
+            <a href="#mastack">My stack</a>
           </li>
           <li>
             <a href="#portfolio">Portfolio</a>
           </li>
           <li>
-            <a href="#contact">Me contacter</a>
+            <a href="#contact">Contacte me</a>
           </li>
         </ul>
       </nav>
