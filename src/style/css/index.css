@@ -42,6 +42,7 @@ html {
 .header a {
   font-weight: 700;
   font-size: xx-large;
+  text-decoration: none;
 }
 .header ul {
   display: flex;
@@ -53,9 +54,6 @@ html {
   padding-right: 5%;
   padding-left: 5%;
   font-size: 18px;
-}
-.header a {
-  text-decoration: none;
 }
 
 #aboutme {
@@ -165,6 +163,7 @@ html {
 .tags {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .tags-unit {
   background-color: #eeeeee;
@@ -176,6 +175,7 @@ html {
   padding-top: 7px;
   padding-bottom: 7px;
   font-weight: 500;
+  white-space: nowrap;
 }
 
 .contact {
@@ -216,7 +216,7 @@ footer {
 
 @media (max-width: 1280px) {
   .header a {
-    font-size: 0.9em;
+    font-size: 1.4em;
   }
   .header ul li a {
     font-size: 1.5em;
@@ -310,8 +310,8 @@ footer {
 }
 @media (max-width: 480px) {
   .about_me {
-    margin-top: 50px;
     margin-bottom: 100px;
+    flex-direction: column-reverse;
   }
   .about_me section {
     width: 100%;

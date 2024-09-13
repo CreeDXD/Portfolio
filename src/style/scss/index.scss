@@ -44,6 +44,7 @@ html {
   a {
     font-weight: 700;
     font-size: xx-large;
+    text-decoration: none;
   }
   ul {
     display: flex;
@@ -55,9 +56,6 @@ html {
       padding-left: 5%;
       font-size: 18px;
     }
-  }
-  a {
-    text-decoration: none;
   }
 }
 
@@ -171,6 +169,7 @@ html {
 .tags {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   &-unit {
     background-color: #eeeeee;
     margin-top: 10px;
@@ -181,6 +180,7 @@ html {
     padding-top: 7px;
     padding-bottom: 7px;
     font-weight: 500;
+    white-space: nowrap;
   }
 }
 // section contact
@@ -228,7 +228,7 @@ footer {
   // About Me Section
   .header {
     a {
-      font-size: 0.9em;
+      font-size: 1.4em;
     }
     ul li {
       a {
@@ -355,8 +355,8 @@ footer {
 @media (max-width: 480px) {
   // About Me Section
   .about_me {
-    margin-top: 50px;
     margin-bottom: 100px;
+    flex-direction: column-reverse;
 
     section {
       width: 100%;
