@@ -353,6 +353,16 @@ footer {
   }
 }
 @media (max-width: 480px) {
+  // Header Section
+  .secondportfolio {
+    display: none;
+  }
+  .header {
+    a {
+      font-size: 1em;
+    }
+  }
+
   // About Me Section
   .about_me {
     margin-bottom: 100px;
@@ -362,6 +372,13 @@ footer {
       width: 100%;
       h1 {
         font-size: 30px;
+        text-align: center;
+      }
+      h1,
+      h3,
+      p {
+        padding-left: 2%;
+        padding-right: 2%;
       }
     }
 
@@ -374,7 +391,9 @@ footer {
   // My Stack Section
   .maStack {
     padding-top: 30px;
-
+    h3 {
+      text-align: center;
+    }
     section {
       width: 100%;
     }

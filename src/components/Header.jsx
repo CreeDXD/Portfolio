@@ -10,7 +10,7 @@ const Header = ({ nextSectionRef }) => {
           <li>
             <a href="#mastack">My stack</a>
           </li>
-          <li>
+          <li className="secondportfolio">
             <a href="#portfolio">Portfolio</a>
           </li>
           <li>
