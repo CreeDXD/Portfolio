@@ -224,7 +224,7 @@ footer {
 
 // @media
 // Global Media Query for 1280x720 resolution
-@media (max-width: 1280px) {
+@media (min-width: 1279px) {
   // About Me Section
   .header {
     a {
@@ -342,7 +342,7 @@ footer {
     bottom: 10px;
   }
 }
-@media (max-width: 1001px) {
+@media (max-width: 999px) {
   .header {
     ul li {
       a {
@@ -352,7 +352,7 @@ footer {
     }
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 479px) {
   // Header Section
   .secondportfolio {
     display: none;
@@ -360,6 +360,9 @@ footer {
   .header {
     a {
       font-size: 1em;
+    }
+    ul li a {
+      font-size: 0.7em;
     }
   }
 
@@ -380,6 +383,9 @@ footer {
         padding-left: 2%;
         padding-right: 2%;
       }
+      p {
+        text-align: justify;
+      }
     }
 
     img {
@@ -389,6 +395,9 @@ footer {
   }
 
   // My Stack Section
+  #mastack {
+    scroll-margin-top: 150px;
+  }
   .maStack {
     padding-top: 30px;
     h3 {
@@ -406,7 +415,7 @@ footer {
 
   // Projects Section
   #portfolio {
-    scroll-margin-top: 50px;
+    scroll-margin-top: 160px;
   }
   .projects {
     padding: 20px;
@@ -416,7 +425,7 @@ footer {
       h3 {
         display: none;
       }
-      margin-bottom: 100px;
+      margin-bottom: 410px;
       h1 {
         font-size: 30px;
         margin: 5px;
@@ -451,10 +460,11 @@ footer {
 
   // Contact Section
   .contact {
-    margin-bottom: 100px;
+    margin-bottom: 300px;
 
     &--component {
       padding: 30px 10px;
+      margin-top: 100px;
 
       li {
         padding-left: 5px;
